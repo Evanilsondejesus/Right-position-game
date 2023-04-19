@@ -1,0 +1,94 @@
+
+
+*{
+    padding: 0;
+    margin: 0;
+}
+h1{
+    text-align: center;
+}
+
+
+h1::before{
+    content: "--->";
+}
+
+
+h1::after{
+    content: "<---";
+}
+
+span{
+    
+    text-align: center;
+    display: block;
+    clear: both;
+}
+
+
+
+
+.game{
+width: 100vw;
+box-shadow: 2px 3px #c3cece;
+}
+
+.principal{
+display: flex;
+justify-content: center;
+background-color: #E6F9F1;
+
+    margin-bottom: 0px;
+
+box-shadow: 2px 1px rgba(0, 0, 0, 0.25);
+} 
+.personagens{
+width: 100px;
+height: 100px;
+margin-right: 4px;
+background-color: #d9d912;
+border-radius: 50%;
+}
+
+button{
+    margin-top: 0;
+width: 100%;
+background-color: #B7E1E3; 
+border: none;
+border-bottom: 1px solid;
+border-top: none;
+box-shadow: 2px 1px rgba(0, 0, 0, 0.25)
+;
+}
+
+
+
+#dvteste1{
+    width: 200px;
+    margin: auto;
+background-repeat: no-repeat; 
+}
+#dvteste1{
+
+margin: auto;
+
+}
+#salvar_posicao{
+display: none;
+
+
+}
+input{
+
+   display: none; 
+}
+#pont{
+    float: right;
+    margin-right: 10%;
+    font-size: 2em;
+}
+svg{
+display: none;
+
+
+}
